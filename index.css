@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+/* Bulb shape */
+#bulb {
+    width: 120px;
+    height: 120px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 20px auto;
+    transition: all 0.3s ease;
+}
+
+/* Bulb ON state */
+.on {
+    background-color: yellow;
+    box-shadow: 0 0 60px yellow;
+}
+
+/* Bigger bulb */
+.big {
+    width: 1800px;
+    height: 1800px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 50px;
+    color: yellow;
+    background-color: darkorange;
+}
